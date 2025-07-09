@@ -1,0 +1,55 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+*.log
+
+# Environment
+.env
+.venv/
+venv/
+ENV/
+env.bak/
+*.env
+
+# Django stuff
+*.sqlite3
+db.sqlite3
+media/
+staticfiles/
+local_settings.py
+
+# VSCode / PyCharm / IDEs
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Migrations (optional – nếu bạn muốn track thì bỏ dòng này)
+**/migrations/*.pyc
+**/migrations/__pycache__/
+**/migrations/*.py~
+
+# pytest / coverage / test output
+.coverage
+htmlcov/
+.tox/
+.cache/
+.pytest_cache/
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+
+# Docker (nếu có)
+*.pid
